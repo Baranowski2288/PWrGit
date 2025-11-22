@@ -11,5 +11,10 @@ int main(){
 	int n;
 	cin>>n;
 	cout<<silnia(n)<<endl;
+	if(n<0){
+		cout<<"Blad liczba ujemna"<<endl;
+		return 0;
+	}
+	cout<<n<<endl;
 	return 0;
 }
